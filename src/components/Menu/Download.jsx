@@ -18,7 +18,7 @@ class Download extends React.Component {
 		return (
 			<a
 				title="Save as JSON"
-				className="btn btn-light mr-2"
+				className="btn btn-light ml-2"
 				href={this.getDataURI()}
 				download={`${randomWord()}.json`}
 				onClick={() => {

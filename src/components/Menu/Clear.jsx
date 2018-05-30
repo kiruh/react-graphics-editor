@@ -8,7 +8,7 @@ import { updateHistory } from "~/actions/controller";
 const Clear = props => (
 	<button
 		title="Clear all"
-		className="btn btn-light mr-2"
+		className="btn btn-light ml-2"
 		onClick={async () => {
 			await updateHistory();
 			props.setObjects([]);
